@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: url("ProximaNova-Bold.woff2") format("woff2");
+}
+
+body {
+    margin:0;
+    padding:0;	
+    font-family: 'ProximaNova-Bold', sans-serif;
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 600px;
+	overflow: hidden;
+	background: #25c9d0;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #0e8c91;
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #676767; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    cursor: pointer;
+    width: 129px;
+    height: 49px;
+    top: 14px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+#cta {
+    width: inherit;
+    bottom: 240px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#textWrap {
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#intro{
+    top: 250px;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+}
+
+#introHeadline {
+    font-size: 57.33px;
+    top: 49px;
+    width: inherit;
+    text-align: center;
+}
+
+#introHeadline div {
+    position: relative;
+}
+
+#introHeadlineWithColor {
+    height: 75px;
+    display: inline-block;
+    background-image: url('wave.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(251, 238, 119, 0.4)
+}
+
+#introSubheadline {
+    font-size: 21.89px;
+    line-height: 27px;
+}
+
+#introCaption {
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: none;
+    top: 115px;
+    width: inherit;
+    text-align: center;
+}
+
+#headline {
+    width: inherit;
+    font-size: 46.79px;
+    text-align: center;
+    line-height: 80%;
+    top: 427px;
+}
+
+#headline div {
+    position: relative;
+}
+
+#textColor {
+    height: 75px;
+    display: inline-block;
+    background-image: url('wave.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(251, 238, 119, 0.4)
+}
+
+#subheadline {
+    font-size: 11.8px;
+    width: inherit;
+    text-align: center;
+    top: 411px;
+}
+
+#headlineCaption {
+    font-size: 10px;
+    width: inherit;
+    text-align: center;
+    top: 506px;
+}
+
+#footer {
+    width: inherit;
+    height: 268px;
+    background-color: #fbee77;
+    bottom: 0;
+    left: 0;
+    color: #ee397b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            align-items: center;
+}
+
+#footer > div {
+    position: relative;
+}
+
+#footerInnerWrap {
+    width: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#footerInnerWrap > div {
+    position: relative;
+    width: inherit;
+    text-align: center;
+}
+
+#resortSubheadline {
+    font-size: 10.44px;
+}
+
+#resortHeadline {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+#footer #footerPrice div {
+    position: relative;
+}
+
+#footerPrice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-top: 7px;
+}
+
+#footerPrice_left {
+    text-align: right;
+}
+
+#priceSign {
+    font-size: 27px;
+}
+
+#priceFrom {
+    font-size: 9.23px;
+    line-height: 50%;
+    padding-top: 4px;
+}
+
+#priceNum {
+    font-size: 46.42px;
+    line-height: 65%;
+    padding-left: 2px;
+}
+
+#pricePerson {
+    font-size: 7.02px;
+    letter-spacing: 0.3pt;
+}
+
+#footerIncludes {
+    text-align: center;
+    width: inherit;
+    font-size: 12px;
+    padding-top: 20px;
+    width: 110px;
+}
+
+#disclaimer {
+    font-size: 8px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    bottom: -54px;
+}
+
+#imagesWrap {
+    width: inherit;
+    height: 260px;
+    top: 75px;
+    overflow: hidden;
+}
+
+.image {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+
+.line {
+    width: inherit;
+    height: 1px;
+    background-color: #fff;
+}
+
+#topLine {
+    top: 0;
+}
+
+#bottomLine {
+    bottom: 0;
+}
+
+.imageOverlay {
+    width: inherit;
+    height: 130px;
+    background-color: #25c9d0;
+}
+
+#top {
+    top: 0;
+}
+
+#imageOverlay_bottom {
+    bottom: 0;
+}

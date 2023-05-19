@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "BarlowCondensed-SemiBold";
+    src: url("BarlowCondensed-SemiBold.woff2") format("woff2");
+}
+
+* {
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;	
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    background: #fff;
+	overflow: hidden;
+    border: 1px solid #9a9a9a;
+    cursor: pointer; 
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #fff;
+    pointer-events: none;
+    z-index: 3;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+.close-icon {
+    position: absolute;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    stroke: #fff;
+    top:10px;
+    left:260px;
+    opacity: 0;
+    display:none;
+    transition: all 0.3s;
+    z-index: 5;
+}
+
+#shadow {
+    filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.9));
+}
+
+.close-icon:hover {
+    opacity: 1;
+}
+
+#hand {
+    left: 280px;
+    top: 86px;
+    width: 20px;
+    height: 20px;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    background: url('hand.svg') center center no-repeat;
+    pointer-events: none;
+    opacity:0;
+    z-index: 2;
+}
+
+.b {
+    font-family: 'BarlowCondensed-SemiBold', sans-serif;
+}
+
+#logo {
+    cursor: pointer;
+    width: 68px;
+    height: 68px;
+    top: 9px;
+    left: 9px;
+    opacity:0;
+}
+
+#cta {
+    width: 132px;
+    height: 34px;
+    bottom: 11px;
+    left: 18px;
+    cursor: pointer;
+}
+
+#ctaInner {
+    width: 132px;
+    height: 35px;
+    bottom: 0;
+    left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14.5px;
+    letter-spacing:  1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #27bdef;
+    color: rgb(255, 255, 255);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding-bottom: 2px;
+}
+
+#ctaInner:hover {
+    box-sizing: border-box;
+    color: #00acec;
+    background: #fff;
+    border: 2px solid #27bdef;
+
+} 
+
+#text {
+    top: 97px;
+    left: 13px;
+    width: 125px;
+    height: inherit;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-align: start;
+    line-height: 107%;
+}
+
+.headline {
+    width: inherit;
+    height: inherit;
+    top: 21px;
+    left: 1px;
+}
+
+#text div.last {
+    top: 0;
+}
+
+.bold, #textTop{
+    font-family: 'BarlowCondensed-SemiBold', sans-serif;
+    font-size: 20.45px;
+    text-align: start;
+    width: 200px;
+}
+
+#images {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 161px;
+}
+
+.img {
+    width: inherit;
+    height: inherit;
+}
+
+.slider {
+    position: absolute;
+    left: 165px;
+    top: -23px;
+    cursor: pointer;
+}
+
+.slider-item {
+    width: 140px;
+    height: 110px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+img {
+    object-fit: cover;
+}

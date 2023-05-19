@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: absolute;
+}
+
+#wrapper {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 600px;
+    background: #000;
+    overflow: hidden;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #000;
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #9a9a9a;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    cursor: pointer;
+    width: 86px;
+    height: 86px;
+    top: 15px;
+    left: 15px;
+    background: url('logo.svg') center center no-repeat;
+}
+
+#cta {
+    width: 147px;
+    height: 39px;
+    bottom: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #00bdf2;
+    color: #fff;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+#cta:hover {
+    background-color: #fff;
+    color: #00bdf2;
+}
+
+#textWrap {
+    top: 129px;
+    left: 15px;
+    width: 300px;
+    height: 250px;
+    color: #ffffff;
+}
+
+.headline {
+    width:inherit;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 40.45px;
+    line-height: 92%;
+    text-transform: uppercase;
+}
+
+.subheadline {
+    top: 79px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 114%;
+}
+
+.blue {
+    color: #fff;
+}
+
+#image {
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+}
+
+svg {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

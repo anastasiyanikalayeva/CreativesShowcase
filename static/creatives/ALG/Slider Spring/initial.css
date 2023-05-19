@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "ProximaNova-Extrabold";
+    src: url("ProximaNova-Extrabold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: url("ProximaNova-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "ProximaNova-Medium";
+    src: url("ProximaNova-Medium.woff2") format("woff2");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+svg,
+img {
+    position: absolute;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+#wrapper {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    background-color: #ffffff;
+    height: 250px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #ffffff;
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #333;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    cursor: pointer;
+    top: 5px;
+    left: 4px;
+    width: 111px;
+    height: 50px;
+}
+
+#before {
+    width: inherit;
+    height: inherit;
+}
+
+#bgBefore {
+    width: inherit;
+    height: inherit;
+    background-image: url('bg0.jpg');
+}
+
+#after {
+    width: inherit;
+    height: inherit;
+}
+
+#bgAfter {
+    width: inherit;
+    height: inherit;
+    background-image: url('bg1.jpg');
+}
+
+#slider {
+    width: 20px;
+    height: inherit;
+    left: -10px;
+}
+
+#slider .white {
+    background: #fff;
+    width: 2px;
+    height: inherit;
+    left: 9px;
+}
+
+#slider .slider {
+    top: 110px;
+    left: 6px;
+    width: 8px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+#footer {
+    width: inherit;
+    height: 39px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #ee397b;
+    font-family: "ProximaNova-Bold";
+    color: #fff;
+}
+
+#footer #text {
+    width: 144px;
+    height: auto;
+    text-align: right;
+    font-size: 10.67px;
+    line-height: 102%;
+    top: 6px;
+    left: -34px;
+}
+
+#footer #person {
+    width: 80px;
+    height: auto;
+    font-size: 7.83px;
+    letter-spacing: 0.6px;
+    top: 28px;
+    left: 153px;
+}
+
+#footer #dollar {
+    width: 40px;
+    height: auto;
+    font-size: 16px;
+    top: 4px;
+    left: 114px;
+}
+
+#footer #price {
+    width: auto;
+    height: auto;
+    font-size: 28.74px;
+    left: 125px;
+}
+
+#footer #cta {
+    cursor: pointer;
+    width: 106px;
+    height: 38px;
+    bottom: -38px;
+    left: 187px;
+    font-family: "ProximaNova-Bold";
+    font-size: 16.67px;
+    color: #db487e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 37px;
+    background-color: #fff;
+    transition: background 0.3s, color 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#footer #cta:hover {
+    color: #fff;
+    background-color: #25c9d0;
+}
+
+.bold {
+    font-family: "ProximaNova-Bold";
+}
+
+#textWrapper {
+    width: inherit;
+    height: inherit;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Extrabold', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    pointer-events: none;
+}
+
+#headBefore,
+#headAfter {
+    width: inherit;
+    height: inherit;
+}
+
+.pink {
+    color: #db518a;
+}
+
+.yellow {
+    color: #fbed79;
+}
+
+.aqua {
+    color: #40cfd7;
+}
+
+.staycay {
+    font-size: 41px;
+    left: 57px;
+    transform: rotate(-4.5deg);
+}
+
+.vacay {
+    font-size: 55px;
+    left: 57px;
+    transform: rotate(-4.5deg);
+}
+
+.turn,
+.into {
+    font-family: "ProximaNova-Bold";
+    font-size: 14.33px;
+    transform: rotate(-5deg);
+}
+
+.turn {
+    top: 43px;
+    left: 109px;
+}
+
+.into {
+    top: 94px;
+    left: 133px;
+}
+
+#subhead {
+    font-family: "ProximaNova-Medium";
+    font-size: 13.33px;
+    letter-spacing: 0.1px;
+    line-height: 104%;
+    color: #fff;
+    text-transform: none;
+    top: 176px;
+    left: 34px;
+    width: 230px;
+    text-align: center;
+}
+
+@supports (-webkit-backdrop-filter: blur(1px)) {
+
+    .staycay,
+    .vacay {
+        letter-spacing: -1px;
+    }
+
+    #subhead {
+        letter-spacing: -0.7px;
+    }
+}

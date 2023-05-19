@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: absolute;
+}
+
+#wrapper {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #161616;
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #333;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    cursor: pointer;
+    width: 68px;
+    height: 68px;
+    top: 10px;
+    left: 10px;
+    background: url("logo.svg") no-repeat;
+    background-size: contain;
+}
+
+#ctawrap {
+    width: inherit;
+    bottom: 10px;
+}
+
+.cta {
+    width: 40%;
+    right: 10px;
+    bottom: 2px;
+    padding: 8px 5px;
+    text-align: center;
+    line-height: 110%;
+    height: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    letter-spacing: 0.6pt;
+}
+
+#cta {
+    cursor: pointer;
+    background: #00bdf2;
+    color: #fff;
+    -webkit-transition: background 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+#ctaback {
+    background: #fff;
+    color: #00bdf2;
+}
+
+#cta:hover {
+    background: #fff;
+    color: #00bdf2;
+}
+
+#text {
+    top: 56px;
+    right: 1px;
+    width: 140px;
+    height: 205px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.4pt;
+    line-height: 1;
+}
+
+#text>span {
+    display: inline-block;
+}
+
+#text1 {
+    font-size: 39px;
+    color: #fff;
+    line-height: 90%;
+    letter-spacing: -0.1px;
+}
+
+#text2 {
+    font-size: 18px;
+    color: #00bdf2;
+    line-height: 100%;
+    letter-spacing: 0.1px;
+}
+
+#text3 {
+    bottom: 72px;
+    text-align: center;
+    width: 260px;
+    left: 20px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    line-height: 100%;
+    font-size: 21px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #000;
+}
+
+.slanted {
+    display: inline-block;
+    -webkit-transform: rotate(-10deg) skewX(-10deg);
+    -ms-transform: rotate(-10deg) skewX(-10deg);
+    transform: rotate(-10deg) skewX(-10deg);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#images {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+
+.img {
+    width: inherit;
+    height: inherit;
+}
